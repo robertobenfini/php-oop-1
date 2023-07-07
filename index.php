@@ -4,6 +4,12 @@
         public $titolo;
         public $genere;
         public $anno;
+
+        function __construct($titolo, $genere, $anno){
+            $this->titolo = $titolo;
+            $this->genere = $genere;
+            $this->anno = $anno;
+        }
     }
 
 ?>
